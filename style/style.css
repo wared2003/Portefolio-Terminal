@@ -20,5 +20,36 @@
 .terminal .pattern {
   color: #50fa7b;
 }
+.terminal .txtbar {
+  animation-duration: 0.8s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+.terminal .answer {
+  margin-left: 24px;
+}
+.terminal .answerError {
+  margin-left: 24px;
+  color: #ff5555 !important;
+}
+.terminal td {
+  padding-right: 32px;
+}
+.terminal .purple {
+  color: #ff79c6;
+}
+
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
