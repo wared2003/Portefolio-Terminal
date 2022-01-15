@@ -1,0 +1,26 @@
+$background-color: #282a36;
+$main-txt-color: #f8f8f2;
+$discret-txt-color: #6272a4;
+$pattern-txt-color: #50fa7b;
+*{
+  margin: 0;
+  padding: 0;
+  terxt-decoration: none;
+  box-sizing: border-box;
+}
+
+.terminal{
+  padding: 16px;
+  width: 100%;
+  height: 100vh;
+  background-color: $background-color;
+  color: $main-txt-color;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  .banner{
+    font-size: 20px;
+  }
+  .pattern{
+    color: $pattern-txt-color;
+  }
+}
